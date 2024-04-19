@@ -1,0 +1,22 @@
+{
+ 
+  "name": "udemy-100-algorithms-challenge",
+  "description": "These are my solutions for [The 100 Algorithms Challenge Udemy course](https://www.udemy.com/course/100-algorithms-challenge) by Dylan Israel.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --watch",
+    "testFile": "jest -- --testNamePattern --watch"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
