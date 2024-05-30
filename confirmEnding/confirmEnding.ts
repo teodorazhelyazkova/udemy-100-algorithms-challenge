@@ -1,4 +1,8 @@
-export function confirmEnding(str: string, target: string) {}
+export function confirmEnding(str: string, target: string) {
+    const strEnding = str.substring(str.length - target.length);
 
-// console.log(confirmEnding("Abstraction", "action"));
-// console.log(confirmEnding("Open sesame", "pen"));
+    return strEnding === target;
+}
+
+console.log(confirmEnding('Abstraction', 'action'));
+console.log(confirmEnding('Open sesame', 'pen'));
