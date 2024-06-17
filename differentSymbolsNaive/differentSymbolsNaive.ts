@@ -1,3 +1,5 @@
-export function differentSymbolsNaive(s: string): number {}
+export function differentSymbolsNaive(s: string): number {
+    return new Set(s).size;
+}
 
 // console.log(differentSymbolsNaive('cabca'));
